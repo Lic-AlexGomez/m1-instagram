@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", system-ui;
+
+   
+}
+.c-black{
+    background-color: black;
+}
+.d-flex{
+    display: flex;
+}
+.a-center{
+    align-items: center;
+}
+.post{
+    margin:50px auto;
+    background-color: #fff;
+    width:450px;
+}
+.post-header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-header .html-icon,.post-header .menu-icon{
+    font-size: 40px;
+    padding: 20px;
+}
+.post-header .menu-icon{
+    float:right;
+}
+.post-img
+    {
+        background-image: url("/img-fondo.jpg"); 
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 300px; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+      }
+
+.post-icons{
+    padding:10px;
+    font-size:30px;
+    justify-content: space-between;
+   
+}
+p{
+    margin: 10px;
+}
+
+.post-text-body{
+    text-align: justify;
+    padding-bottom: 30px;
+}
